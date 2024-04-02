@@ -1,0 +1,33 @@
+* {
+  font-family: arial;
+}
+header {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 1px 2px 3px #131;
+  cursor: pointer;
+  background-color: #efe;
+  transition: 2s color;
+  min-height: 100px;
+  border-radius: 15px 15px 0 0;
+}
+header h2 {
+  line-height: 100px;
+}
+header:hover {
+  color: #161;
+}
+footer {
+  background-color: #efe;
+  line-height: 80px;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+  color: #131;
+  font-weight: bold;
+}
+.nava {
+  position: sticky;
+  z-index: 999;
+  top: 0px;
+}
